@@ -2,7 +2,7 @@ package jabratech:component-historical-volatility;
 
 
 interface historical-volatility {
-    get-historical-volatility: func(currency: string, start_date: string, end_date: string) -> result<f64, string>;
+    get-historical-volatility: func(currency: string, start-date: string, end-date: string) -> result<f64, string>;
 }
 
 world component-historical-volatility {
